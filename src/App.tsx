@@ -1,24 +1,39 @@
 import React from 'react'
 import logo from './logo.svg'
+import avatar from './images/avatar.png'
+import bg from './images/big-sur.png'
 import './App.css'
+
+import Profile from './Profile'
 
 const App: React.FunctionComponent = () => {
   return (
     <div className='App'>
       <header className='App-header'>
         <img src={logo} className='App-logo' alt='logo' />
-        <p className='text-white-300 text-lg'>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
         <a
           className='App-link'
           href='https://reactjs.org'
           target='_blank'
           rel='noopener noreferrer'
         >
-          Learn React
+          React Challenges
         </a>
       </header>
+      <main className='felx justify-center align-middle justify-items-center'>
+        <p className='text-lg font-bold my-10'>
+          #1 Display Simple Data with JSX
+        </p>
+        <Profile
+          bg={bg}
+          avatar={avatar}
+          githubName='hehoku'
+          intro='hobo'
+          labelList={['react', 'tailwindcss']}
+          name='Hehoku'
+          twitterName='iHehoku'
+        />
+      </main>
     </div>
   )
 }

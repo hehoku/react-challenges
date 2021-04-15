@@ -1,0 +1,11 @@
+.labels span:nth-child(odd) {
+  @apply bg-blue-700;
+}
+
+.labels span:nth-child(even) {
+  @apply bg-pink-700;
+}
+
+.profileContainer {
+  width: 560px;
+}
