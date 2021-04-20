@@ -1,0 +1,16 @@
+.dream {
+  width: 480px;
+  height: 140px;
+}
+
+.dreams .dream:nth-child(1) {
+  background-color: #73a8b2;
+}
+
+.dreams .dream:nth-child(2) {
+  background-color: #7394b4;
+}
+
+.dreams .dream:nth-child(3) {
+  background-color: #e4d3cd;
+}

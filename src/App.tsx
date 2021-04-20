@@ -1,10 +1,8 @@
 import React from 'react'
 import logo from './logo.svg'
-import avatar from './images/avatar.png'
-import bg from './images/big-sur.png'
 import './App.css'
 
-import Profile from './Profile'
+import Dreams from './Dreams'
 
 const App: React.FunctionComponent = () => {
   return (
@@ -22,17 +20,9 @@ const App: React.FunctionComponent = () => {
       </header>
       <main className='felx justify-center align-middle justify-items-center'>
         <p className='text-lg font-bold my-10'>
-          #1 Display Simple Data with JSX
+          #2 Loop Over and Display Data with JSX
         </p>
-        <Profile
-          bg={bg}
-          avatar={avatar}
-          githubName='hehoku'
-          intro='hobo'
-          labelList={['react', 'tailwindcss']}
-          name='Hehoku'
-          twitterName='iHehoku'
-        />
+        <Dreams />
       </main>
     </div>
   )
