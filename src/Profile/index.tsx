@@ -38,7 +38,7 @@ const Profile = ({
         <div className='mt-16 ml-6'>
           <p className='text-lg font-bold text-left'>{name}</p>
           <p className='text-gray-400 text-left'>{intro}</p>
-          <p className='mt-2'>
+          <p className='mt-2 text-left'>
             <a href={`https://github.com/${githubName}`}>
               <GitHub className='inline' />
             </a>
