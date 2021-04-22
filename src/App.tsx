@@ -2,7 +2,7 @@ import React from 'react'
 import logo from './logo.svg'
 import './App.css'
 
-import AlertBaseInput from './AlertBaseInput'
+import Calculator from './AddingCalculator'
 
 const App: React.FunctionComponent = () => {
   return (
@@ -19,8 +19,8 @@ const App: React.FunctionComponent = () => {
         </a>
       </header>
       <main className='felx justify-center align-middle justify-items-center'>
-        <p className='text-lg font-bold my-10'>#4 show alert base input</p>
-        <AlertBaseInput />
+        <p className='text-lg font-bold my-10'>#5 Adding Calculator</p>
+        <Calculator />
       </main>
     </div>
   )
