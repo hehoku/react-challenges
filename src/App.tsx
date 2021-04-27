@@ -2,7 +2,7 @@ import React from 'react'
 import logo from './logo.svg'
 import './App.css'
 
-import MoveBox from './MoveBox'
+import Books from './Books'
 
 const App: React.FunctionComponent = () => {
   return (
@@ -19,8 +19,8 @@ const App: React.FunctionComponent = () => {
         </a>
       </header>
       <main className='felx justify-center align-middle justify-items-center'>
-        <p className='text-lg font-bold my-10'>#6 MoveBox</p>
-        <MoveBox />
+        <p className='text-lg font-bold my-10'>#7 Books</p>
+        <Books />
       </main>
     </div>
   )
