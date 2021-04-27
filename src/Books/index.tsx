@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-interface BookProps extends BookItem {
+interface BookProps {
   index: number
   name: string
   authors: string
